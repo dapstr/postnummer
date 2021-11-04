@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = %w[README.textile LICENSE]
 
-  s.add_dependency 'mechanize', '~> 2.5.1'
+  s.add_dependency 'mechanize', '>= 2.5.1', '< 2.9.0'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'bundler'
